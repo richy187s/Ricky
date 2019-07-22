@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    #color {
+      background-color: orange;
+      border: 1px solid white;
+
+    }
+
+    #colo{
+      font-size: 30px;
+    }
+  </style>
+
+
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Tablas</h1>
+
+    <div class="row">
+      <div class="col s12" id="color">1</div>
+      <div class="col s6 offset-s6" id="color">2</div>
+      <div class="col s4 push-s8" id="color">3</div>
+      <div class="col s8 pull-s4" id="color">4</div>
+    </div>
+
+    <h3>Sections and Dividers</h3>
+    <div class="divider"></div>
+    <div class="section">
+      <h5>Comentario</h5>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore nulla harum dolor sapiente? Sed at cumque
+        ipsum esse commodi, nesciunt, mollitia natus magnam nostrum quis ipsam dolore, vitae optio cupiditate.</p>
+    </div>
+
+    <div class="divider"></div>
+    <div class="section">
+      <h5>Resumen</h5>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et optio, consequatur saepe magni beatae expedita
+        corporis voluptatum? Hic, dicta. Excepturi numquam quas consectetur eveniet quod recusandae similique
+        voluptatibus incidunt necessitatibus!</p>
+    </div>
+    <h3> class="row"</h3>
+    <h3> class="col s1"</h3>
+
+    <div class="row">
+      <div id="color" class="col s5">sdf</div>
+      <div id="color" class="col s7">sdfa</div>
+      <div class="row">
+          <div id="color" class="col s12">sdf</div>
+          <div id="color" class="col s12">sdfa</div>
+          <div class="row">
+              <div id="color" class="col s5">sdf</div>
+              <div id="color" class="col s7">sdfa</div>
+              <div class="row">
+                  <div id="color" class="col s5">sdf</div>
+                  <div id="color" class="col s7">sdfa</div>
+    </div>
+
+    <div class="row">
+      <div class="col s3" id="color">2</div>
+      <div class="col s6" id="color">1</div>
+      <div class="col s3" id="color">3</div>
+    </div>
+    <div class="row">
+      <div class="col m3" id="color">2</div>
+      <div class="col m6" id="color">1</div>
+      <div class="col m3" id="color">3</div>
+    </div>
+    <div class="row">
+      <div class="col l3" id="color">2</div>
+      <div class="col l6" id="color">1</div>
+      <div class="col l3" id="color">3</div>
+    </div>
+    <div class="row">
+        <div class="grid-example col s6" id="color">2</div>
+        <div class="grid-example col s6" id="color">1</div>
+        <div class="grid-example col s12 m9" id="color">3</div>
+      </div>
+      <div class="row">
+        <div id="color" class="col s12"><p>s12</p></div>
+        <div id="color" class="col s12 m4 l2"><p>s12 m4</p></div>
+        <div id="color" class="col s12 m4 l8"><p>s12 m4</p></div>
+        <div id="color" class="col s12 m4 l2"><p>s12 m4</p></div>
+      </div>
+
+<h3>Table</h3>
+      <table>
+        <thead>
+          <tr>
+              <th>Marca</th>
+              <th>Modelo</th>
+              <th>Precio</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Motorola</td>
+            <td>G7</td>
+            <td>$0.87</td>
+          </tr>
+          <tr>
+            <td>Sansung</td>
+            <td>A50</td>
+            <td>$3.76</td>
+          </tr>
+          <tr>
+            <td>LG</td>
+            <td>K10</td>
+            <td>$7.00</td>
+          </tr>
+        </tbody>
+      </table>
+<h3>Striped Table</h3>
+<label for="" id="colo">Class "Striped"</label>
+      <table class="striped">
+        <thead>
+          <tr>
+              <th>Marca</th>
+              <th>Modelo</th>
+              <th>Precio</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Motorola</td>
+            <td>G7</td>
+            <td>$0.87</td>
+          </tr>
+          <tr>
+            <td>Sansung</td>
+            <td>A50</td>
+            <td>$3.76</td>
+          </tr>
+          <tr>
+            <td>LG</td>
+            <td>K10</td>
+            <td>$7.00</td>
+          </tr>
+        </tbody>
+      </table>
+      <h3>Highlight Table</h3>
+      <label for="" id="colo">class="highlight"</label>
+      <table class="highlight">
+        <thead>
+          <tr>
+              <th>Marca</th>
+              <th>Modelo</th>
+              <th>Precio</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Motorola</td>
+            <td>G7</td>
+            <td>$0.87</td>
+          </tr>
+          <tr>
+            <td>Sansung</td>
+            <td>A50</td>
+            <td>$3.76</td>
+          </tr>
+          <tr>
+            <td>LG</td>
+            <td>K10</td>
+            <td>$7.00</td>
+          </tr>
+        </tbody>
+      </table>
+      <h3>Centered Table</h3>
+      <label for="" id="colo">class="centered"</label>
+      <table class="centered">
+        <thead>
+          <tr>
+              <th>Marca</th>
+              <th>Modelo</th>
+              <th>Precio</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Motorola</td>
+            <td>G7</td>
+            <td>$0.87</td>
+          </tr>
+          <tr>
+            <td>Sansung</td>
+            <td>A50</td>
+            <td>$3.76</td>
+          </tr>
+          <tr>
+            <td>LG</td>
+            <td>K10</td>
+            <td>$7.00</td>
+          </tr>
+        </tbody>
+      </table>
+      <h3>Responsive Table</h3>
+      <label for="" id="colo">class="responsive-table"</label>
+      <table class="responsive-table">
+        <thead>
+          <tr>
+              <th>Marca</th>
+              <th>Modelo</th>
+              <th>Precio</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Motorola</td>
+            <td>G7</td>
+            <td>$0.87</td>
+          </tr>
+          <tr>
+            <td>Sansung</td>
+            <td>A50</td>
+            <td>$3.76</td>
+          </tr>
+          <tr>
+            <td>LG</td>
+            <td>K10</td>
+            <td>$7.00</td>
+          </tr>
+        </tbody>
+      </table>
+
+  </div>
+
+  
+
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+
+</html>
